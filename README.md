@@ -25,6 +25,17 @@ Send the id command to the server
 php5-dev php5-cli php-pear libssh2-1-dev libssh2-php
 ```
 
+-   SSH List Format
+------
+```
+admin:sharon:172.16.0.1
+adminx:sharon:172.16.0.2
+server:alex:172.16.0.3
+root:alex172.16.0.4
+marcos:brett:172.16.0.1
+brett:brett:172.16.0.5
+```
+
 -   Execute
 ------
 ```
@@ -37,5 +48,3 @@ Exemple: php T35T.php ssh_list.txt 10
 ```
 file: ssh_successful.txt
 ```
-
-
